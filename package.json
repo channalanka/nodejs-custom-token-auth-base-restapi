@@ -1,0 +1,29 @@
+{
+  "name": "custom-token-auth-base-restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "babel src--out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "channak",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "joi": "^14.3.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.4",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.3",
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.3"
+  }
+}
